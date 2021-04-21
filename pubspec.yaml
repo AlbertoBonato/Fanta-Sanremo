@@ -1,0 +1,44 @@
+name: fanta_sanremo
+description: Il gioco non ufficiale del Festival di Sanremo
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^4.3.2+4
+  firebase_core: "0.7.0"
+  cloud_firestore: "^0.16.0"
+  firebase_auth: "^0.20.0+1"
+  firebase_messaging: "^8.0.0-dev.14"
+  google_sign_in: "^4.5.1"
+  shared_preferences: "^0.5.12+4"
+  page_transition: "^1.1.7+2"
+  tuple: ^1.0.3
+  toast: ^0.1.5
+  path_provider: ^1.6.27
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/competitors/
+  fonts:
+    - family: Saira
+      fonts:
+        - asset: assets/fonts/Saira-VariableFont_wdth,wght.ttf
+    - family: Aldrich
+      fonts:
+        - asset: assets/fonts/Aldrich-Regular.ttf
+    - family: Monoton
+      fonts:
+        - asset: assets/fonts/Monoton-Regular.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 400
